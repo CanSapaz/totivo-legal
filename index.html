@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Totivo — Legal</title>
+<style>
+  :root { --bg: #F6F7FB; --text: #1F2430; --accent: #7C6BF0; --accent-soft: #EEEBFE; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0E1116; --text: #EDEFF5; --accent: #8E7FF3; --accent-soft: #241F45; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100dvh; display: grid; place-items: center;
+  }
+  main { text-align: center; padding: 24px; }
+  .mark {
+    width: 72px; height: 72px; border-radius: 21px; margin: 0 auto 16px;
+    background: linear-gradient(135deg, #8F80F6, #5F4BE0);
+    display: grid; place-items: center;
+  }
+  .mark svg { width: 46px; height: 46px; }
+  h1 { font-size: 30px; letter-spacing: -0.02em; margin-bottom: 26px; }
+  a {
+    display: inline-block; margin: 6px; padding: 12px 26px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent);
+    text-decoration: none; font-weight: 600;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.7"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+      <path d="M9 11h.01M15 11h.01" stroke-width="2.2" />
+      <path d="M9.5 15c.7.7 1.5 1 2.5 1s1.8-.3 2.5-1" />
+      <path d="M12 2v3" />
+    </svg>
+  </div>
+  <h1>Totivo</h1>
+  <a href="./privacy.html">Privacy Policy · Gizlilik</a>
+  <a href="./terms.html">Terms · Şartlar</a>
+</main>
+</body>
+</html>
